@@ -1,13 +1,23 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+
+// Override Bootstrap variables
+@import "variables";
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+// Site-specific styles
+// Add additional stylesheets below
+@import "content";
+
+
+
 /* Author Styles */
 
 .jumbotron h1 {
-    color: green;
+    color: #00b3b3;
 }
 
 .browsehappy {
